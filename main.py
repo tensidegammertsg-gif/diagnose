@@ -14,13 +14,13 @@ import re
 from bs4 import BeautifulSoup
 
 # ── Fill these in ──────────────────────────
-SCRAPER_API_KEY = "your_scraperapi_key_here"
+SCRAPER_API_KEY = f28fad0323f2166dea2f9df3f6679ea7
 # ──────────────────────────────────────────
 
 def fetch(url):
     api_url = (
         f"http://api.scraperapi.com"
-        f"?api_key={SCRAPER_API_KEY}"
+        f"?api_key={f28fad0323f2166dea2f9df3f6679ea7}"
         f"&url={requests.utils.quote(url, safe='')}"
         f"&render=true"
         f"&country_code=in"
