@@ -14,7 +14,7 @@ import re
 from bs4 import BeautifulSoup
 
 # ── Fill these in ──────────────────────────
-SCRAPER_API_KEY = f28fad0323f2166dea2f9df3f6679ea7
+SCRAPER_API_KEY = "f28fad0323f2166dea2f9df3f6679ea7"
 # ──────────────────────────────────────────
 
 def fetch(url):
